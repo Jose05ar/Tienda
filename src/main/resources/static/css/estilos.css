@@ -22,3 +22,43 @@
 p{
     word-spacing: 8px;
 }
+.ejemploCajas{
+    border: 2px solid black;
+    /* 1 parametro = aplica os 4 lados*/
+    /*  Padding-top: 10px;*/
+    
+    /* 2 parametros = top/bottom - left/right*/
+    /* padding: 20px 10px;*/
+    
+    /* 2 parametros = top - legt/right - bottom*/
+    /* padding: 20px 10px 15px;*/
+    
+    /* 4 parametros = top - right - bottom - left*/
+     padding: 20px 10px 15px 30px;
+     margin: 20px 10px 15px 30px;
+     width: 50%;
+     text-align: center;
+     margin: 0 auto;
+}
+a{
+    color: crimson;
+    background-color:    bisque;
+    border: 2px  solid aquamarine;
+    margin: 10px;
+    padding: 4px;
+    border-radius: 25px;
+}
+a:visited {
+    color:  sandybrown;
+}
+a:hover{
+    color: darkmagenta;
+    background-color: green;
+    transition: 1.0s;
+}
+a:active{
+    color:  aquamarine;
+    background-color: purple;
+    
+    
+}
