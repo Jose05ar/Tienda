@@ -15,4 +15,11 @@ public class IndexController {
         return "index";
     }
     
+        @RequestMapping("contacto")
+    public String paginaContacto(Model model) {
+//        model.addAttribute("attribute", "value");
+        return "index";
+    }
+    
+    
 }
